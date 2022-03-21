@@ -1,0 +1,36 @@
+/* body {
+  background-color: rgba(209, 178, 0, 0.966);
+} */
+
+.item1 { grid-area: header; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header '
+  'main main main'
+  'main main main';
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+}
+
+.contentUser{
+  font-size: 15px;
+
+}
